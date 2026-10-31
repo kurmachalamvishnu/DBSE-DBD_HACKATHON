@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.bak
+
+# Build and Temp Outputs
+dist/
+*/dist/
+build/
+*/build/
+.vite-temp/
+*/.vite-temp/
+
+# Python Cache & Bytecode
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Local Environment Overrides
+.env.local
+.env.*.local
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
